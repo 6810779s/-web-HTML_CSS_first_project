@@ -4,7 +4,7 @@
 
 >이 프로젝트는 HTML과 CSS의 기본 개념을 다지기 위한 프로젝트 입니다.
 >가장 기본적인 HTML과 CSS 개념으로 만들었으며,
->"https://www.frontendmentor.io/challenges"사이트의 첼린저 프로젝트
+>"https://www.frontendmentor.io/challenges" 사이트의 첼린저 프로젝트
 >를 통해 프로젝트를 계획하게 되었습니다.
 
 ### CSS의 활용
