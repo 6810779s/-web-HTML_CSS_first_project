@@ -15,7 +15,6 @@ li{
 #wrap{
   width: 100%;
   height: 100%;
-  
   position: relative;
 
 }
@@ -39,28 +38,34 @@ li{
   float: left;
 }
 
-
-.info-top{
+.info-top1{
   color: white;
   font-size: 1.5em;
   padding-bottom: 20px;
 }
+.info-top2{
+  display: none;
+}
 
-.info-top span{
+.info-top1 span,.info-top2 span{
   color: rgb(170,90,218);
 }
 
-.info-mid{
+.info-mid1{
   font-size: 0.8em;
   line-height: 22px;
   color: rgb(187, 186, 204);
   padding-bottom: 60px;
+}
+.info-mid2{
+  display: none;
 }
 
 .info-text2{
   float: left;
   margin-right: 60px;
 }
+
 
 .num{
   color: white;
@@ -73,13 +78,18 @@ li{
   font-size: 0.5em;
 }
 
+
 .image{
   width: 540px;
   height: 100%;
   float: right;
   position: relative;
-  background: rgb(236, 217, 40);
 }
+
+.phone{
+  display: none;
+}
+
 
 .image-color{
   width: 100%;
@@ -92,5 +102,74 @@ li{
 img{
   position: absolute;
   z-index: 1;
+}
+
+@media (max-width:767px){
+  .container{
+    border-radius: 10px;
+    width: 360px;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  .info{
+    width: 100%;
+    height: 697px;
+    text-align: center;
+    padding: 0;
+    background: rgb(28, 25, 56);
+    float: left;
+  }
+  
+  .info-top1{
+    display: none;
+  }
+  .info-top2{
+    display: block;
+    color: white;
+    font-size: 2.3em;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .info-mid1{
+    display: none;
+  }
+  .info-mid2{
+    line-height: 23px;
+    color: rgb(181, 178, 203);
+    display:block;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .info-text2{
+    margin-left: 152px;
+    padding-bottom: 30px;
+  }
+  .num{
+    font-style: bolder;
+    font-size: 1.7em;
+    
+  }
+  .intro{
+    font-size: 0.8em;
+    color: rgb(181, 178, 203);
+  }
+
+  .image{
+    width: 100%;
+    height: 297px
+  }
+  .computer{
+    display: none;
+  }
+  .phone{
+    display: block;
+  }
+
 }
 
